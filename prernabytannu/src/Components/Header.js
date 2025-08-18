@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className="w-full">
       {/* Top Strip */}
-      <div className="w-full bg-gradient-to-r from-pink-500 via-orange-500 to-yellow-500 text-white text-sm py-1 overflow-hidden">
+      <div className="w-full from-pink-500 via-orange-500 to-yellow-500bg-gradient-to-r  text-white text-sm py-1 overflow-hidden">
         <div className="flex whitespace-nowrap animate-marquee">
           {Array(10).fill("").map((_, idx) => (
             <div key={idx} className="flex items-center mx-4">
